@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="slider" content="width=device-width, initial-scale=1">
+    <title>Horizontal slider</title>
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="icons/style.css" rel="stylesheet" />
+    <link href="lib/jquery-ui.css" rel="stylesheet" />
+    <link href="lib/jquery-ui.theme.css" rel="stylesheet" />
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/jquery.transit.min.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+    <h1> Custom checkboxes </h1>
+    <input type="checkbox"><input type="checkbox">
+
+    <hr>
+    <input type="search">
+    <input type="button" name="Click" value="Click">
+
+
+    <hr>
+
+    <div class="check-container">
+        <div class="icon-checkmark"></div>
+    </div>
+    <div class="check-container">
+        <div class="icon-checkmark"></div>
+    </div>
+    <div class="check-container">
+        <div class="icon-checkmark"></div>
+    </div>
+
+    </br>
+    <hr>
+
+    Custom Slider ONE:
+    <input id="slider-one" type="range" min="0" max="100" value="75" onchange="showValue(this.value)" />
+        <span id="range-one">75</span>
+
+    </br>
+    <hr>
+
+
+    <div class="slider-container">
+        <div class="slider-track"></div>
+        <div class="slider-button"></div>
+    </div>
+
+    </br>
+    <hr>
+
+
+    <div id="range">
+        <span id="currentVal">30</span>
+    </div>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

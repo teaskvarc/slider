@@ -1,0 +1,152 @@
+body{
+
+    font-family: Arial;
+}
+
+.check-container{
+
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    font-size: 50px;
+    background-color: aliceblue;
+    transition: all 0.5s;
+
+}
+
+.check-on{
+
+    color: yellowgreen;
+    background-color: darkred;
+}
+
+
+/** custom slider **/
+
+#range-one{
+
+    font-size: 25px;
+    padding: 3px;
+    border: 1px solid;
+    margin: 2px;
+}
+
+#slider-one{
+
+    margin: 5px;
+}
+
+
+
+
+/** custom slider second **/
+
+
+.slider-container{
+
+    position: relative;
+    height: 30px;
+    width: 300px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.slider-container .slider-track{
+
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    background-color: black;
+    border-radius: 20px;
+    top: 12px;
+
+}
+
+.slider-container .slider-button{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #555;
+
+    pointer-events: none;
+}
+
+
+
+#range{
+
+    position: relative;
+    width:160px;
+    margin: 50px auto;              /** zgoraj in spodaj je 50, levi in desno = auto **/
+    border: 0;
+    height: 7px;
+    background: #959799;
+    outline: none;
+}
+
+#range .ui-slider-handle {
+
+    position: absolute;
+    /**margin: -3px 0 0 -9px; **/
+    border-radius: 100%;
+    background:black;
+    border: 0;
+    height: 18px;
+    width: 18px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#range .ui-slider-handle:hover,
+#range .ui-slider-handle:focus{
+
+    transform: scale(1.1);
+
+}
+
+#range .ui-slider-range{
+
+    background: #007aff;
+}
+
+#range #currentVal{
+
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b8b8b8;
+    width: 160px;
+    text-align: center;
+    margin-top: -40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
